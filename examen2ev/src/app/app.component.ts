@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'examen2ev';
+  @Input() titulo = "Welcome to Web Development!";
+  ngOnInit() {
+    this.titulo = "Already in!";
+    console.log("Change for exercise 3, done");  
+   
+  }
 }

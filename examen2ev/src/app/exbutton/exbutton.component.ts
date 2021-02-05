@@ -11,6 +11,11 @@ export class ExButtonComponent {
   ngOnInit() {
     
   }
+
+  public justDoIt(){
+console.log("Exercise 5 done!");
+  }
+  
 }
 
 

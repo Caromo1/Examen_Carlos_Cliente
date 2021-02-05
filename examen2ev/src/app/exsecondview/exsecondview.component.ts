@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./exsecondview.component.css']
 })
 export class EXSecondViewComponent {
-
+  
 }
